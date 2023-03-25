@@ -78,13 +78,13 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\root\Desktop\srcs\egir.dev-cs2\egir.dev-cs2\Dependencies\imgui;C:\Users\root\Desktop\srcs\egir.dev-cs2\egir.dev-cs2\Dependencies\minhook\include;C:\Users\root\Desktop\srcs\egir.dev-cs2\egir.dev-cs2\Menu;C:\Users\root\Desktop\srcs\egir.dev-cs2\egir.dev-cs2\Hearth;C:\Users\root\Desktop\srcs\egir.dev-cs2\egir.dev-cs2\Dependencies\sdk;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)Dependencies/minhook/include;$(ProjectDir)Dependencies/imgui;$(ProjectDir)Dependencies/sdk;$(ProjectDir)Menu/;$(ProjectDir)Hearth/;$(IncludePath)</IncludePath>
     <OutDir>$(SolutionDir)$(Platform)\Build\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\root\Desktop\srcs\egir.dev-cs2\egir.dev-cs2\Dependencies\imgui;C:\Users\root\Desktop\srcs\egir.dev-cs2\egir.dev-cs2\Dependencies\minhook\include;C:\Users\root\Desktop\srcs\egir.dev-cs2\egir.dev-cs2\Menu;C:\Users\root\Desktop\srcs\egir.dev-cs2\egir.dev-cs2\Hearth;C:\Users\root\Desktop\srcs\egir.dev-cs2\egir.dev-cs2\Dependencies\sdk;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)Dependencies/minhook/include;$(ProjectDir)Dependencies/imgui;$(ProjectDir)Dependencies/sdk;$(ProjectDir)Menu/;$(ProjectDir)Hearth/;$(IncludePath)</IncludePath>
     <OutDir>$(SolutionDir)$(Platform)\Build\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
